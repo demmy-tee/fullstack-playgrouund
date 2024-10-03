@@ -1,0 +1,32 @@
+.heading-primary{
+  color : rgb(214, 63, 63);
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 3rem;
+}
+
+.parallelogram-container{
+  width: 40vw;
+  margin: 0 auto;
+  background-color: rgba(240, 248, 255, 0.505) ;
+  padding: 20px;
+  transform: skew(-20deg);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(95, 86, 143, 0.3);
+  overflow: hidden;
+}
+.form-container{
+transform: skew(20deg);
+padding: 20px;
+display: flex;
+flex-direction: column;
+margin-left:40px ;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

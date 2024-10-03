@@ -1,0 +1,23 @@
+.dropdown-input{
+  margin-bottom: 15px;
+}
+
+.dropdown-input label {
+color: #fff;
+font-size: 1.2rem;
+margin-bottom: 5px;
+display: block;
+}
+
+.dropdown-input select{
+  width: 80%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 1rem;
+box-sizing: border-box;
+}
+.dropdown-input select:focus{
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
